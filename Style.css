@@ -4,8 +4,21 @@
   box-sizing: border-box;
 }
 
+
+.overlay-text{
+  font-size: 600px;
+  color: #575757;
+  font-weight: 600;
+  transition: 0.5s;
+}
+.overlay-text:hover{
+  -webkit-text-stroke: 2px gray;
+  color: transparent;
+  
+}
+
 body {
-  font-family: Arial, sans-serif;
+  font-family:Montserrat;
   background-color: black; /* Set the body background to black */
   color: white; /* Text color will be white to contrast with the black background */
 }
@@ -45,7 +58,7 @@ body {
 }
 
 .navbar .logo a {
-  color: white;
+  color: rgb(151, 8, 8);
   text-decoration: none;
   font-size: 24px;
   font-weight: bold;
